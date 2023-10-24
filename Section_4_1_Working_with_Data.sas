@@ -6,7 +6,7 @@
 * 	- RENAME allows us to rename the specific columns;
 
 DATA salaryemp(KEEP=salary RENAME=salary=salaryemp); 
-INFILE "/home/u63650566/Lessons/salary.txt"; * Location of the dataset to import;
+INFILE "/home/u63650566/Lessons/Data/salary.txt"; * Location of the dataset to import;
 INPUT year salary;
 RUN;
 

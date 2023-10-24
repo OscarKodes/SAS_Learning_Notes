@@ -2,7 +2,7 @@
 /* IMPORTING .txt FILES ================== */
 
 /* DATA salary; */
-/* 	INFILE "/home/u63650566/Lessons/salary.txt"; */
+/* 	INFILE "/home/u63650566/Lessons/Data/salary.txt"; */
 /* 	INPUT year salary; */
 /*  RUN; */
 
@@ -12,7 +12,7 @@
 /* IMPORTING .csv FILES ================== */
 
 /* DATA weightgain; */
-/* 	INFILE "/home/u63650566/Lessons/weightgain.csv" DSD MISSOVER FIRSTOBS=2; */
+/* 	INFILE "/home/u63650566/Lessons/Data/weightgain.csv" DSD MISSOVER FIRSTOBS=2; */
 /* 	INPUT id source$ type$ weightg; */
 /*  RUN; */
 
@@ -27,7 +27,7 @@
 
 /* IMPORTING .xlsx FILES ================== */
 
-/* PROC IMPORT DATAFILE="/home/u63650566/Sample-Sales-Data.xlsx"  */
+/* PROC IMPORT DATAFILE="/home/u63650566/Lessons/Data/Sample-Sales-Data.xlsx"  */
 /* 	OUT=salesdata  */
 /* 	DBMS=XLSX; */
 /*  RUN; */
@@ -53,7 +53,7 @@
 
 /* OTHER STATEMENTS .xlsx FILES ================== */
 
-/* PROC IMPORT DATAFILE="/home/u63650566/Lessons/Sample-Sales-Data.xlsx"  */
+/* PROC IMPORT DATAFILE="/home/u63650566/Lessons/Data/Sample-Sales-Data.xlsx"  */
 /* 	OUT=salesdata  */
 /* 	DBMS=XLSX */
 /* 	REPLACE; */
