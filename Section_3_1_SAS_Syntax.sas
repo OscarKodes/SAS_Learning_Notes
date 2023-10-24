@@ -30,7 +30,6 @@ DATA personnel;
 /* It can produce statistics, reports, and data visualizations. */
 
 /* PROC is short for "procedure." */
-/* like INPUT, INFILE, CARDS */
 
 
 PROC PRINT data=personnel;
