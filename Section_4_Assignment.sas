@@ -3,13 +3,15 @@ MY ASSIGNMENT ANSWER ###################################;
 
 
 PROC IMPORT DATAFILE="/home/u63650566/Lessons/Data/Balance_Bank.xlsx"
-	OUT=bank1;
+	OUT=bank1
+	DBMS=XLSX;
 	SHEET="Sheet1";
 RUN;
 
 
 PROC IMPORT DATAFILE="/home/u63650566/Lessons/Data/Balance_Bank.xlsx"
-	OUT=bank2;
+	OUT=bank2
+	DBMS=XLSX;
 	SHEET="Sheet2";
 RUN;
 
